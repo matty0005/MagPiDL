@@ -9,7 +9,7 @@ def install(package):
 #testing to see if bs4 is installed
 try:
    import bs4
-    print 'BeautifulSoup4 is installed'
+   print 'BeautifulSoup4 is installed'
 #if not, it will install the module
 except ImportError:
    print 'Error, Module BeautifulSoup4 is required'
@@ -18,7 +18,7 @@ except ImportError:
 #testing to see if 'requests' is installed 
 try:
    import requests
-    print 'Requests is installed'
+   print 'Requests is installed'
 #if not, it will install the module
 except ImportError:
    print 'Error, Module Requests is required'
@@ -27,7 +27,7 @@ except ImportError:
 #testing to see if tqdm is installed
 try:
    import tqdm
-    print 'tqdm is installed'
+   print 'tqdm is installed'
 #if not, it will install the module
 except ImportError:
    print 'Error, Module tqdm is required'
