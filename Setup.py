@@ -1,34 +1,17 @@
 #Downloads all the necesary librarys to run the script - Requires PIP
 import pip
-
+package = ["bs4","requests", "tqdm"]
 
 #defining the installation process
 def install(package):
     pip.main(['install', package])
 
-#testing to see if bs4 is installed
-try:
-   import bs4
-   print 'BeautifulSoup4 is installed'
-#if not, it will install the module
-except ImportError:
-   print 'Error, Module BeautifulSoup4 is required'
-   install('bs4')
-   
-#testing to see if 'requests' is installed 
-try:
-   import requests
-   print 'Requests is installed'
-#if not, it will install the module
-except ImportError:
-   print 'Error, Module Requests is required'
-   install('requests')
-
-#testing to see if tqdm is installed
-try:
-   import tqdm
-   print 'tqdm is installed'
-#if not, it will install the module
-except ImportError:
-   print 'Error, Module tqdm is required'
-   install('tqdm')
+	
+for package in package:
+	try:
+		__import__(package)
+		print '%s is installed.' % package
+	except ImportError:
+	   print 'Error, Module %s is required' % package
+	   install('package')
+	
