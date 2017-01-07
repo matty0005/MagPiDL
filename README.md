@@ -6,15 +6,10 @@ This script is Python 2 and 3 compatible
 
 Note: Requires to have pip installed.
 Run the Setup.py
-###Windows
+###Windows, Linux & MacOSX
 ```
 python Setup.py
 ```
-####Linux & MacOSX
-```
-./Setup.py
-```
-
 ##Usage.
 To download all of the Mag-Pi issues to the current directory of the files.
 ###Windows
