@@ -29,5 +29,3 @@ try:
 except ImportError:
    print 'Error, Module tqdm is required'
    install('tqdm')
-
-   
