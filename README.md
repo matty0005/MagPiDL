@@ -4,7 +4,7 @@ Downloads all the PDF issues of the Mag-Pi
 ##Setup.
 This script is Python 2 and 3 compatible
 
-Note: Requires to have pip installed.
+Note: Requires pip to be installed.
 Run the Setup.py
 ###Windows & MacOSX
 ```
