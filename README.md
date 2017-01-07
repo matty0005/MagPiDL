@@ -1,7 +1,7 @@
 # MagPiDL
 Downloads all the PDF issues of the Mag-Pi
 
-##Installation.
+##Setup.
 This script is Python 2 and 3 compatible
 
 Note: Requires to have pip installed.
