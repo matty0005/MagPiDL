@@ -20,4 +20,3 @@ for link in links:
             for chunk in tqdm(r.iter_content(1024),desc="Downloading " + pdf_name):
                 f.write(chunk)
             tqdm.write("Downloaded " + pdf_name)
-
