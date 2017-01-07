@@ -1,14 +1,14 @@
 # MagPiDL
 Downloads all the PDF issues of the Mag-Pi
 
-# Installation.
+#h2 Installation.
 Note: Requires to have pip installed.
 Run the Setup.py
-#Windows
+#h3Windows
 ```
 python Setup.py
 ```
-#Linux & MacOSX
+#h3Linux & MacOSX
 ```
 ./Setup.py
 ```
