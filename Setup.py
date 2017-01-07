@@ -13,5 +13,5 @@ for package in package:
 		print '%s is installed.' % package
 	except ImportError:
 	   print 'Error, Module %s is required' % package
-	   install('package')
+	   install(package)
 	
