@@ -26,5 +26,8 @@ for link in links:
 				tqdm.write("Downloaded " + pdf_name)
 				downloaded = open("Downloaded.txt", "a")
 				downloaded.write(pdf_name + '\n')
-				
+		
+		
+else:
+	print "All files have been downloaded"
 
