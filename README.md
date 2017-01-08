@@ -20,5 +20,7 @@ To download all of the Mag-Pi issues to the current directory of the files, just
 ```
 python magpi-dl.py
 ```
+The script adds the downloaded documents to the 'Downloaded.txt' file, and reads it everytime to check if you have already downloaded the Document.
+
 Please note: This can take a while to download, as there is about 1.1GB of PDF Documents(At the time of making this).
 
